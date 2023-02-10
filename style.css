@@ -1,0 +1,13 @@
+body {
+  background: rgb(102,99,232);
+  background: linear-gradient(0deg, rgba(102,99,232,1) 0%, rgba(173,104,233,1) 100%);
+  background-attachment: fixed;
+}
+.attribution {
+    font-size: 11px;
+    text-align: center;
+  }
+
+  .attribution a {
+    color: hsl(228, 23%, 38%);
+  }
