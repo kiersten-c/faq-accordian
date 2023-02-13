@@ -1,13 +1,37 @@
-body {
+html {
   background: rgb(102,99,232);
   background: linear-gradient(0deg, rgba(102,99,232,1) 0%, rgba(173,104,233,1) 100%);
   background-attachment: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Kumbh Sans', sans-serif;
+  font-size: 12px;
 }
+
+body {
+  background-color: white;
+  width: 65vw;
+  height: 65vh;
+  border-radius: 25px;
+  margin: 135px 0;
+}
+
+h3{
+  font-weight: 400;
+  color: #504f57;
+}
+
+h4 {
+  font-weight: 400;
+  color: #8c8b90;
+}
+
 .attribution {
     font-size: 11px;
     text-align: center;
   }
 
-  .attribution a {
-    color: hsl(228, 23%, 38%);
-  }
+.attribution a {
+  color: hsl(228, 23%, 38%);
+}
